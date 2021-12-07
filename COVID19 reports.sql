@@ -1,11 +1,3 @@
-SElECT *
-FROM protfolioproject..CovidDeaths$
-WHERE continent is not null
-order by 3,4
-
-SELECT location, date,total_cases,new_cases,total_deaths,population
-FROM protfolioproject..CovidDeaths$
-order by 1,2
 
 
 
